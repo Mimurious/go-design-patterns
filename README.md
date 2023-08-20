@@ -10,7 +10,7 @@ description: >-
 
 Go takes a lightweight approach to code reuse through interfaces and composition rather than heavy OOP abstraction.
 
-* Go does not have classes. Instead it uses structs and interfaces. Structs can group data and behavior together similar to classes, but without formal notion of inheritance.
+* Go does not have classes. Instead, it uses structs and interfaces. Structs can group data and behavior together similar to classes but without the formal notion of inheritance.
 * There is no concept of subclassing in Go. Structs cannot inherit from other structs. Go relies on composition to reuse code.
 * Interfaces can define method signatures that concrete types can implement, providing polymorphic behavior. But there is no subclassing of interfaces.
 * No access modifiers like private or protected in Go structs. Composition is preferred for encapsulation.
@@ -19,3 +19,14 @@ Go takes a lightweight approach to code reuse through interfaces and composition
 In Go, casing conventions indicate intended encapsulation - capitalized names export across package boundaries while lowercase names suggest internal-only usage.
 {% endhint %}
 
+### Disclaimer: Author's Learning Journey
+
+\
+This GitBook is a collaborative effort to document common software design patterns in Go. Please note that **I, the author, am currently in the process of learning about these patterns myself as I write this GitBook**. As a result, there may be inaccuracies or omissions in the content.
+
+#### How You Can Contribute
+
+Your assistance is invaluable in enhancing the quality of this resource:
+
+* **Reporting Issues**: If you discover inaccuracies, typos, or missing information, please open an issue on the GitHub repository.
+* **Making Pull Requests**: If you possess expertise in Go or design patterns, you are welcome to submit pull requests to improve this resource.
