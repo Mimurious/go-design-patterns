@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Go Design Patterns](README.md)
-* [Quick Start](quick-start.md)
+* [OOP in Go](oop-in-go.md)
 * [SOLID Principles](solid-principles.md)
 
 ## Creational Patterns
@@ -30,3 +30,11 @@
 
 * [Future/Promise](concurrency-patterns/future-promise.md)
 * [Actor Model](concurrency-patterns/actor-model.md)
+
+## Enterprise Patterns
+
+* [Specification](enterprise-patterns/specification.md)
+
+## Anti-Patterns
+
+* [God Struct/Component](anti-patterns/god-struct-component.md)
