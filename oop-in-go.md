@@ -1,16 +1,16 @@
 # OOP in Go
 
 {% hint style="warning" %}
-Go does not support object-oriented programming (OOP) features like inheritance. Try focusing on interfaces and simple composition rather than inheritance hierarchies.
+The OOP (object-oriented programming) characteristic of inheritance is not supported by Go. Instead of concentrating on inheritance hierarchies, try focusing on interfaces and straightforward composition.
 {% endhint %}
 
-Go takes a lightweight approach to code reuse through interfaces and composition rather than heavy OOP abstraction.
+Go uses **composition and interfaces** to reuse code more efficiently than it would with complex OOP abstraction.
 
-* Go does not have classes. Instead, it uses structs and interfaces. Structs can group data and behavior together similar to classes but without the formal notion of inheritance.
-* There is no concept of subclassing in Go. Structs cannot inherit from other structs. Go relies on composition to reuse code.
-* Interfaces can define method signatures that concrete types can implement, providing polymorphic behavior. But there is no subclassing of interfaces.
-* No access modifiers like private or protected in Go structs. Composition is preferred for encapsulation.
+* **There are no classes in Go.** It substitutes structs and interfaces instead. Similar to classes, structs can organize data and behavior together, but without the formal concept of inheritance.
+* **Subclassing is not a concept in Go.** Structs are not permitted to inherit from other structs. Go uses composition to allow for code reuse.
+* **Polymorphic behavior is provided by interfaces,** which can define method signatures that concrete types can implement. However, interface subclassing does not exist.
+* **Go structs don't have access modifiers like private or protected.** Encapsulation is best achieved through composition.
 
 {% hint style="info" %}
-In Go, casing conventions indicate intended encapsulation - capitalized names export across package boundaries while lowercase names suggest internal-only usage.
+Capitalized names export across package boundaries but lowercase names imply internal-only usage in Go, where casing standards signal intended encapsulation.
 {% endhint %}
